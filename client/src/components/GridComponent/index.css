@@ -1,0 +1,46 @@
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 10px;
+  transition: width 2s;
+}
+.grid:hover {
+  box-shadow: 10px 10px 5px 7px;
+}
+
+.save-btn {
+  background-color: rgb(178, 120, 231);
+  color: white;
+}
+.cancel-btn {
+  background-color: #d2691e;
+  color: white;
+}
+.title{
+  background-color: cornsilk;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.grid-wrapper{
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  flex-direction: "column";
+  row-gap: "20px";
+  padding: "30px";
+  background-color: "white";
+  width: "400px";
+  border-radius:"10px"
+
+}
